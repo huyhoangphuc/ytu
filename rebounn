@@ -1,13 +1,7 @@
-Wait(2)
 local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/a120doors/main/jghgifgy"))()
 
 ---====== Create entity ======---
 
-if  game.ReplicatedStorage.GameData.LatestRoom.Value ~= 50 then
-game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-else
-Wait(3)
-end
 local entity = Spawner.createEntity({
     CustomName = "Rebound",
     Model = "rbxassetid://12403179451", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
