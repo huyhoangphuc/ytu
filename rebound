@@ -5,8 +5,8 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/huyho
 local entity = Spawner.createEntity({
     CustomName = "Rebound",
     Model = "rbxassetid://12403179451", -- Your entity's model url here ("rbxassetid://1234567890" or GitHub raw url)
-    Speed = 100,
-    MoveDelay = 3,
+    Speed = 200,
+    MoveDelay = 5,
     HeightOffset = 1,
     CanKill = true,
     KillRange = 55,
@@ -59,7 +59,7 @@ entity.Debug.OnLookAtEntity = function()
 end
 
 entity.Debug.OnDeath = function()
-    print("Player has died")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/huyhoangphuc/hehhe/main/fgtfgi"))()
 end
 
 --[[
