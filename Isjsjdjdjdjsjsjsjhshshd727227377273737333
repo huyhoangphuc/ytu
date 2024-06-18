@@ -1,0 +1,5 @@
+local Sielnce = Instance.new("Sound", workspace)
+Sielnce.SoundId = "rbxassetid://1049428586"
+Sielnce:Play()
+Sielnce.Volume = 2
+game.Debris:AddItem(Sielnce, 2)
